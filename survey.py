@@ -1,6 +1,7 @@
 class Survey:
 
-    def __init__(self):
+    def __init__(self, survey_sections):
+        self.survey_sections = survey_sections
     
     def start_survey():
         pass
