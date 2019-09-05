@@ -1,5 +1,7 @@
 class Survey:
 
+    def __init__(self):
+    
     def start_survey():
         pass
 
