@@ -1,26 +1,15 @@
+from section import section
+
 class Survey:
 
     def start_survey():
         pass
-
-    def ask_qualifying_questions():
-        pass
-
-    def start_survey_sections():
-        pass
-
-    def ask_quiestion():
-        pass
-
-    def show_answers():
-        pass
-
-    def answer_question():
-        pass
-
-    def go_to_next_questions():
-        pass
+       
 
     def end():
         pass
+
+section1 = section('Learning','This section is about how you are going with the learning in shecodes', )
+section1 = section('Social','This section is about how you are going with the Socially in shecodes')
+section1 = section('Learning','This section is about how you are going with the Location and time in shecodes')
 

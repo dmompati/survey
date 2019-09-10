@@ -1,4 +1,3 @@
-import survey from survey
 
 class answer:
 

@@ -1,12 +1,9 @@
-import survey from survey
+class question:
 
-class Question:
-
-    def __init__(self, question_text, answers, next_question):
+    def __init__(self, question_text, answers):
         self.question_text = question_text
         self.answers = answers
-        self.next_question = next_question
 
-    
-    def get_answer_by_code():
-        pass
+question1 = question('Do you find the online content useful?', ['yes', 'No'])
+question2 = question('Do you find the online content useful?', ['yes', 'No'])
+question3 = question('Do you find the online content useful?', ['yes', 'No'])
